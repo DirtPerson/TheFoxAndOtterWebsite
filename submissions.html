@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submissions - The Fox and Otter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Submissions</h1>
+    </header>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="submissions.html">Submissions</a></li>
+            <li><a href="published.html">Published Works</a></li>
+            <li><a href="biopics.html">Biopics</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <section>
+            <h2>Submission Guidelines</h2>
+            <p>We welcome submissions from all aspiring authors. Please adhere to the following guidelines:</p>
+            <ul>
+                <li>Poetry: No character limit.</li>
+                <li>Short Fiction: Maximum 5000 characters.</li>
+                <li>Nonfiction Essays: Maximum 2000 characters.</li>
+            </ul>
+            <h3>Legal Notice</h3>
+            <p>By submitting your work to The Fox and Otter, you grant us the right to publish your work on our website in perpetuity. Copyright remains with the author, and you are free to republish your work elsewhere after one calendar year.</p>
+        </section>
+        <section>
+            <h2>Submit Your Work</h2>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" enctype="multipart/form-data">
+                <label for="pen-name">Pen Name:</label>
+                <input type="text" id="pen-name" name="pen-name" required>
+
+                <label for="bio">Short Biopic:</label>
+                <textarea id="bio" name="bio" rows="3" required></textarea>
+
+                <label for="picture">Upload Picture (Optional):</label>
+                <input type="file" id="picture" name="picture" accept="image/*">
+
+                <label for="promo-links">Self-Promotion Links (Optional):</label>
+                <textarea id="promo-links" name="promo-links" rows="3"></textarea>
+
+                <label for="submission">Your Work (Max 1000 characters):</label>
+                <textarea id="submission" name="submission" rows="5" maxlength="1000"></textarea>
+
+                <label for="file-upload">Upload a File (for larger works):</label>
+                <input type="file" id="file-upload" name="file-upload" accept=".txt">
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 The Fox and Otter. All rights reserved.</p>
+    </footer>
+
+<div class="margin-promo left">
+    <a href="#">Left Promo</a>
+</div>
+<div class="margin-promo right">
+    <a href="#">Right Promo</a>
+</div>
+
+</body>
+</html>
